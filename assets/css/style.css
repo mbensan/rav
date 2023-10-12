@@ -1786,3 +1786,8 @@ section {
   text-align: center;
   font-size: 13px;
 }
+
+/* Custom CSS Styles */
+#main {
+  margin-top: 2rem;
+}
