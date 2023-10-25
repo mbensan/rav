@@ -24,3 +24,11 @@
   margin-bottom: 0;
   padding-bottom: 0;
 }
+
+.examenes .icon i{
+  color: #8DC63F;
+}
+
+.examenes .title::after {
+  background-color: #8DC63F;
+}
