@@ -6,7 +6,7 @@
   height: 60vh;
 }
 
-.about {
+.about, #examenes, #derechos {
   background-image: url(../img/bg.png);
 }
 
@@ -31,4 +31,8 @@
 
 .examenes .title::after {
   background-color: #8DC63F;
+}
+
+.verde {
+  background: #8dc63f url(../img/bg-sub-head.png) no-repeat center top
 }
