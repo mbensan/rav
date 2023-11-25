@@ -36,3 +36,14 @@
 .verde {
   background: #8dc63f url(../img/bg-sub-head.png) no-repeat center top
 }
+
+.about li, .about .content ul i {
+  font-size: 1rem;
+}
+#bilbao2 {
+  width: 80%;
+  margin-left: 10%;
+}
+#nos-motiva {
+  margin-top: 5rem;
+}
