@@ -31,7 +31,8 @@ try {
 
     // Recipients
     $mail->setFrom('sitiowebravbilbao@gmail.com', 'Mensaje desde Sitio Web');
-    $mail->addAddress('mbensan@gmail.com'); // Add a recipient
+    $mail->addAddress('contacto@ravuchile.cl'); // Add a recipient
+    $mail->addCC('mbensan.test@gmail.com'); // Add a recipient
 
     // Content
     $mail->isHTML(true);
