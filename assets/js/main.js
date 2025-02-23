@@ -1,10 +1,4 @@
-/**
-* Template Name: Medicio
-* Updated: May 30 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
@@ -271,19 +265,4 @@
   new PureCounter();
 
 })()
-
-const ig_id = '715688887115404'
-const ig_secret = '39e5004800744d5263b8221b1f05afe6'
-
-const user_token = 'IGQWRPVUNkZAm51eWNzZA2syLTRDMmQycklvcFkyS0NaZA19zV2JTekJUMHhVU1B5ODFrVXAxbWY2ZAmVNTFBjY29WX1ZAPR3hKWmtpc19CcG5neXVxX2lhOGdmeHR5U2E3UU1qUnR4Y0hvU3V3MmdsOXBrMVVmS29laFUZD'
-
-const url = `https://graph.instagram.com/me/media?fields=id,caption,media_url,timestamp,media_type,permalink&access_token=${user_token}`
-
-async function get_ig () {
-  const data = await fetch(url)
-  const feed = await data.json()
-  console.log(feed)
-}
-
-//get_ig()
 
